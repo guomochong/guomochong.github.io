@@ -86,7 +86,7 @@
 <meta property="og:site_name" content="不积跬步，无以至千里。">
 <meta property="og:description" content="查看fixture中的启动顺序pytest —setup-show test….py ps aux | grep python 删除所有表 1SELECT CONCAT(&amp;apos;drop table &amp;apos;,table_name,&amp;apos;;&amp;apos;) FROM information_schema.`TABLES` WHERE table_schema=&amp;apos;spaceb">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-05-11T16:20:17.319Z">
+<meta property="og:updated_time" content="2019-05-12T12:23:26.460Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="笔记">
 <meta name="twitter:description" content="查看fixture中的启动顺序pytest —setup-show test….py ps aux | grep python 删除所有表 1SELECT CONCAT(&amp;apos;drop table &amp;apos;,table_name,&amp;apos;;&amp;apos;) FROM information_schema.`TABLES` WHERE table_schema=&amp;apos;spaceb">
@@ -347,7 +347,9 @@
 <li><p>更改之前的配置 允许中文<br><code>set character_set_server=utf8;set character_set_database=utf8;show variables like &#39;%char%’;</code></p>
 </li>
 <li><code>set global character_set_database=utf8;set global character_set_server=utf8;show variables like &#39;%char%&#39;;</code></li>
+<li></li>
 </ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt;a = 2</span><br><span class="line">&gt;&gt;&gt; isinstance (a,int)</span><br><span class="line">True</span><br><span class="line">&gt;&gt;&gt; isinstance (a,str)</span><br><span class="line">False</span><br><span class="line">&gt;&gt;&gt; isinstance (a,(str,int,list))    # 是元组中的一个返回 True</span><br><span class="line">True</span><br></pre></td></tr></table></figure>
 
       
     </div>
